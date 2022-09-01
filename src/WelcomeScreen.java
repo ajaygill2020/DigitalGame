@@ -7,6 +7,35 @@ public class WelcomeScreen {
 
         welcomeMessage();
 
+    // Juror instance variables
+        JurorInformation jur1 = new JurorInformation();
+        JurorInformation jur2 = new JurorInformation();
+        JurorInformation jur3 = new JurorInformation();
+        JurorInformation jur4 = new JurorInformation();
+        JurorInformation jur5 = new JurorInformation();
+        JurorInformation jur6 = new JurorInformation();
+        JurorInformation jur7 = new JurorInformation();
+        JurorInformation jur8 = new JurorInformation();
+        JurorInformation jur9 = new JurorInformation();
+        JurorInformation jur10 = new JurorInformation();
+        JurorInformation jur11 = new JurorInformation();
+        JurorInformation jur12 = new JurorInformation();
+
+    // Juror methods from JurorInformation.java
+        jur1.presentJuryInfo();
+        jur2.presentJuryInfo();
+        jur3.presentJuryInfo();
+        jur4.presentJuryInfo();
+        jur5.presentJuryInfo();
+        jur6.presentJuryInfo();
+        jur7.presentJuryInfo();
+        jur8.presentJuryInfo();
+        jur9.presentJuryInfo();
+        jur10.presentJuryInfo();
+        jur11.presentJuryInfo();
+        jur12.presentJuryInfo();
+
+
     // Invoke assignRandomCards() method
 
     }
@@ -69,3 +98,5 @@ public class WelcomeScreen {
 
     }
 }
+
+
