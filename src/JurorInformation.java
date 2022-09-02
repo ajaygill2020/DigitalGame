@@ -1,5 +1,4 @@
 
-
 public class JurorInformation {
     int jurNum; // Juror's number ID
     String jurLastName;  // Juror's last name
@@ -17,10 +16,10 @@ public class JurorInformation {
 
     public void presentJuryInfo() {
 
-        System.out.println("Juror number: " + jurNum);
+        System.out.println("---> Juror number: " + jurNum);
         System.out.println("Juror last name: " + jurLastName);
         System.out.println("Juror age: " + jurAge);
-        System.out.println("Juror has college degree? " + jurCollegeDegree);
+        System.out.println("Juror has college degree? " + jurCollegeDegree + "\n");
     }
 
 
