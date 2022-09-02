@@ -41,6 +41,7 @@ public class WelcomeScreen {
     // Invoke assignRandomCards() method
 
     }
+
     public static void welcomeMessage() {
         // Welcome message
         System.out.println("\n\nWelcome to Lawyer Up: Digital Edition");
@@ -52,6 +53,7 @@ public class WelcomeScreen {
 
         System.out.println("You entered:  " + name);
     }
+
     public static void pickSide(){
         // Choose a side
         Scanner sc = new Scanner (System.in);
@@ -100,6 +102,7 @@ public class WelcomeScreen {
         }
 
     }
+
 }
 
 

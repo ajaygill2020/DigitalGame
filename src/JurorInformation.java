@@ -16,7 +16,7 @@ public class JurorInformation {
 
     public void presentJuryInfo() {
 
-        System.out.println("---> Juror number: " + jurNum);
+        System.out.println("--> Juror number: " + jurNum);
         System.out.println("Juror last name: " + jurLastName);
         System.out.println("Juror age: " + jurAge);
         System.out.println("Juror has college degree? " + jurCollegeDegree + "\n");
