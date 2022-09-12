@@ -7,6 +7,8 @@ public class WelcomeScreen {
     // Call methods
         welcomeMessage();
         pickSide();
+        yourHonor();
+
 
     // Juror instance variables
         JurorInformation jur1 = new JurorInformation(20220100, "Dev", 20,false);
@@ -23,7 +25,7 @@ public class WelcomeScreen {
         JurorInformation jur12 = new JurorInformation(20221200, "Valson", 75,true);
 
     // Juror methods from JurorInformation.java
-        System.out.println("Now it's time to meet the Jury. Remember that in this game, voir-dire does not apply so you will have to work with the following jurors: \n");
+        System.out.println("Now it's time to meet the Jury. \nRemember that in this game, voir-dire does not apply \nso you will have to work with the following jurors: \n");
         jur1.presentJuryInfo();
         jur2.presentJuryInfo();
         jur3.presentJuryInfo();
@@ -36,6 +38,7 @@ public class WelcomeScreen {
         jur10.presentJuryInfo();
         jur11.presentJuryInfo();
         jur12.presentJuryInfo();
+
 
 
     // Invoke assignRandomCards() method
@@ -66,14 +69,14 @@ public class WelcomeScreen {
             Scanner scan = new Scanner(System.in);
             String confirm = scan.nextLine();
             if (confirm.equalsIgnoreCase("Y")) {
-                System.out.println("Excellent, good luck!");
+                System.out.println("Excellent, good luck!\n\n");
             } else {
                 System.out.println("Okay, you can either type [0] for Defense or  [1] for Prosecution.");
                 int side2 = scan.nextInt();
                 if (side2 == 0) {
-                    System.out.println("You chose DEFENSE, good luck!");
+                    System.out.println("You chose DEFENSE, good luck!\n\n");
                 } else if (side2 == 1) {
-                    System.out.println("You chose PROSECUTION, good luck!");
+                    System.out.println("You chose PROSECUTION, good luck!\n\n");
                 } else {
                     System.out.println("NOT  A  VALID  INPUT");
                 }
@@ -84,14 +87,14 @@ public class WelcomeScreen {
             Scanner scan = new Scanner(System.in);
             String confirm = scan.nextLine();
             if (confirm.equalsIgnoreCase("Y")) {
-                System.out.println("Excellent, good luck!");
+                System.out.println("Excellent, good luck!\n\n");
             } else {
                 System.out.println("Okay, you can either type [0] for Defense or  [1] for Prosecution.");
                 int side2 = scan.nextInt();
                 if (side2 == 0) {
-                    System.out.println("You chose DEFENSE, good luck!");
+                    System.out.println("You chose DEFENSE, good luck!\n\n");
                 } else if (side2 == 1) {
-                    System.out.println("You chose PROSECUTION, good luck!");
+                    System.out.println("You chose PROSECUTION, good luck!\n\n");
                 } else {
                     System.out.println("NOT  A  VALID  INPUT");
                 }
@@ -103,6 +106,23 @@ public class WelcomeScreen {
 
     }
 
+    public static void yourHonor() {
+        System.out.println("Your judge will be ...... \nJustice A.P.S. Gill.\n\n");
+    }
+
+    public static void pickCase(){
+        System.out.println("Okay, so you have a judge, jury, but what about your case?\n" +
+                "We know that since we have a jury we are dealing with a criminal case,\n" +
+                "but now you have to type in a number between 0 and 4 to decide your case.");
+
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Please enter either 0, 1, 2, 3, or 4.");
+        int caseNum = sc.nextInt();
+
+        switch (caseNum) {
+            case 0:
+        }
+    }
 }
 
 
